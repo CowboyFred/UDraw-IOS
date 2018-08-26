@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9028640B2064BA8200E017FF /* PaletteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9028640A2064BA8200E017FF /* PaletteVC.swift */; };
+		9058CCC420983C5200604FD2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058CCC320983C5200604FD2 /* RegisterVC.swift */; };
+		9058CCC620984C9100604FD2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058CCC520984C9100604FD2 /* LoginVC.swift */; };
+		909A54FB2099803C0093D03A /* RemoveCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A54FA2099803C0093D03A /* RemoveCursor.swift */; };
+		90AAD5B020A2B5140086556F /* UDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AAD5AF20A2B5140086556F /* UDrawUITests.swift */; };
+		90CF202720A164950056EB64 /* NotesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CF202620A164950056EB64 /* NotesTVC.swift */; };
+		90CF202920A1656C0056EB64 /* NotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CF202820A1656C0056EB64 /* NotesCell.swift */; };
+		90E88333209D295D0020C408 /* uDraw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90E88331209D295D0020C408 /* uDraw.xcdatamodeld */; };
+		A72D6D8F20736CBD00876A2D /* ShapePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D6D8E20736CBD00876A2D /* ShapePath.swift */; };
 		A75391DA2061048C007E0940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75391D92061048C007E0940 /* AppDelegate.swift */; };
 		A75391DC2061048C007E0940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75391DB2061048C007E0940 /* ViewController.swift */; };
 		A75391DF2061048D007E0940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75391DD2061048D007E0940 /* Main.storyboard */; };
@@ -14,7 +23,28 @@
 		A75391E42061048D007E0940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75391E22061048D007E0940 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		90AAD5B220A2B5140086556F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75391CE2061048C007E0940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75391D52061048C007E0940;
+			remoteInfo = UDraw;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9028640A2064BA8200E017FF /* PaletteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteVC.swift; sourceTree = "<group>"; };
+		9058CCC320983C5200604FD2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		9058CCC520984C9100604FD2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		909A54FA2099803C0093D03A /* RemoveCursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveCursor.swift; sourceTree = "<group>"; };
+		90AAD5AD20A2B5140086556F /* UDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AAD5AF20A2B5140086556F /* UDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDrawUITests.swift; sourceTree = "<group>"; };
+		90AAD5B120A2B5140086556F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CF202620A164950056EB64 /* NotesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTVC.swift; sourceTree = "<group>"; };
+		90CF202820A1656C0056EB64 /* NotesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCell.swift; sourceTree = "<group>"; };
+		90E88332209D295D0020C408 /* uDraw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = uDraw.xcdatamodel; sourceTree = "<group>"; };
+		A72D6D8E20736CBD00876A2D /* ShapePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapePath.swift; sourceTree = "<group>"; };
 		A75391D62061048C007E0940 /* UDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75391D92061048C007E0940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A75391DB2061048C007E0940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		90AAD5AA20A2B5140086556F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75391D32061048C007E0940 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +72,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9071AC7C20749FC600C63594 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9028640A2064BA8200E017FF /* PaletteVC.swift */,
+				A75391DB2061048C007E0940 /* ViewController.swift */,
+				9058CCC320983C5200604FD2 /* RegisterVC.swift */,
+				9058CCC520984C9100604FD2 /* LoginVC.swift */,
+				90CF202620A164950056EB64 /* NotesTVC.swift */,
+				90CF202820A1656C0056EB64 /* NotesCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9071AC7D20749FE300C63594 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A75391DD2061048D007E0940 /* Main.storyboard */,
+				A75391E22061048D007E0940 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9071AC7E20749FF100C63594 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A72D6D8E20736CBD00876A2D /* ShapePath.swift */,
+				90E88331209D295D0020C408 /* uDraw.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9071AC7F20749FF900C63594 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A75391E02061048D007E0940 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9071AC802074A00B00C63594 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A75391D92061048C007E0940 /* AppDelegate.swift */,
+				A75391E52061048D007E0940 /* Info.plist */,
+				909A54FA2099803C0093D03A /* RemoveCursor.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		90AAD5AE20A2B5140086556F /* UDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90AAD5AF20A2B5140086556F /* UDrawUITests.swift */,
+				90AAD5B120A2B5140086556F /* Info.plist */,
+			);
+			path = UDrawUITests;
+			sourceTree = "<group>";
+		};
 		A75391CD2061048C007E0940 = {
 			isa = PBXGroup;
 			children = (
 				A75391D82061048C007E0940 /* UDraw */,
+				90AAD5AE20A2B5140086556F /* UDrawUITests */,
 				A75391D72061048C007E0940 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				A75391D62061048C007E0940 /* UDraw.app */,
+				90AAD5AD20A2B5140086556F /* UDrawUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +151,11 @@
 		A75391D82061048C007E0940 /* UDraw */ = {
 			isa = PBXGroup;
 			children = (
-				A75391D92061048C007E0940 /* AppDelegate.swift */,
-				A75391DB2061048C007E0940 /* ViewController.swift */,
-				A75391DD2061048D007E0940 /* Main.storyboard */,
-				A75391E02061048D007E0940 /* Assets.xcassets */,
-				A75391E22061048D007E0940 /* LaunchScreen.storyboard */,
-				A75391E52061048D007E0940 /* Info.plist */,
+				9071AC802074A00B00C63594 /* Others */,
+				9071AC7F20749FF900C63594 /* Assets */,
+				9071AC7E20749FF100C63594 /* Model */,
+				9071AC7D20749FE300C63594 /* View */,
+				9071AC7C20749FC600C63594 /* Controller */,
 			);
 			path = UDraw;
 			sourceTree = "<group>";
@@ -67,6 +163,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		90AAD5AC20A2B5140086556F /* UDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AAD5B420A2B5140086556F /* Build configuration list for PBXNativeTarget "UDrawUITests" */;
+			buildPhases = (
+				90AAD5A920A2B5140086556F /* Sources */,
+				90AAD5AA20A2B5140086556F /* Frameworks */,
+				90AAD5AB20A2B5140086556F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90AAD5B320A2B5140086556F /* PBXTargetDependency */,
+			);
+			name = UDrawUITests;
+			productName = UDrawUITests;
+			productReference = 90AAD5AD20A2B5140086556F /* UDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A75391D52061048C007E0940 /* UDraw */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A75391E82061048D007E0940 /* Build configuration list for PBXNativeTarget "UDraw" */;
@@ -90,13 +204,19 @@
 		A75391CE2061048C007E0940 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Test;
 				TargetAttributes = {
+					90AAD5AC20A2B5140086556F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A75391D52061048C007E0940;
+					};
 					A75391D52061048C007E0940 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = WSW8G2F5K2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -115,11 +235,19 @@
 			projectRoot = "";
 			targets = (
 				A75391D52061048C007E0940 /* UDraw */,
+				90AAD5AC20A2B5140086556F /* UDrawUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		90AAD5AB20A2B5140086556F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75391D42061048C007E0940 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,16 +261,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		90AAD5A920A2B5140086556F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AAD5B020A2B5140086556F /* UDrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75391D22061048C007E0940 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CF202720A164950056EB64 /* NotesTVC.swift in Sources */,
+				A72D6D8F20736CBD00876A2D /* ShapePath.swift in Sources */,
 				A75391DC2061048C007E0940 /* ViewController.swift in Sources */,
+				9058CCC620984C9100604FD2 /* LoginVC.swift in Sources */,
+				9028640B2064BA8200E017FF /* PaletteVC.swift in Sources */,
+				90CF202920A1656C0056EB64 /* NotesCell.swift in Sources */,
+				909A54FB2099803C0093D03A /* RemoveCursor.swift in Sources */,
+				90E88333209D295D0020C408 /* uDraw.xcdatamodeld in Sources */,
 				A75391DA2061048C007E0940 /* AppDelegate.swift in Sources */,
+				9058CCC420983C5200604FD2 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90AAD5B320A2B5140086556F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75391D52061048C007E0940 /* UDraw */;
+			targetProxy = 90AAD5B220A2B5140086556F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A75391DD2061048D007E0940 /* Main.storyboard */ = {
@@ -164,6 +316,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		90AAD5B520A2B5140086556F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UDrawUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Denis-Eltcov.UDrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UDraw;
+			};
+			name = Debug;
+		};
+		90AAD5B620A2B5140086556F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UDrawUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Denis-Eltcov.UDrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UDraw;
+			};
+			name = Release;
+		};
 		A75391E62061048D007E0940 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -174,7 +364,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +374,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -225,7 +421,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +431,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -263,12 +465,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WSW8G2F5K2;
 				INFOPLIST_FILE = UDraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.UDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "UDraw/UDraw-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -276,18 +481,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WSW8G2F5K2;
 				INFOPLIST_FILE = UDraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.UDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "UDraw/UDraw-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		90AAD5B420A2B5140086556F /* Build configuration list for PBXNativeTarget "UDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AAD5B520A2B5140086556F /* Debug */,
+				90AAD5B620A2B5140086556F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A75391D12061048C007E0940 /* Build configuration list for PBXProject "UDraw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -304,8 +520,22 @@
 				A75391EA2061048D007E0940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90E88331209D295D0020C408 /* uDraw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90E88332209D295D0020C408 /* uDraw.xcdatamodel */,
+			);
+			currentVersion = 90E88332209D295D0020C408 /* uDraw.xcdatamodel */;
+			path = uDraw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A75391CE2061048C007E0940 /* Project object */;
 }
